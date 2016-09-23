@@ -1,0 +1,96 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #3a3a3a;
+    background-color: #5a6c86;
+}
+.container {
+    width: 998px;
+    margin: 0 auto;
+}
+.container a {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    color: #b3b3b3;
+    float: right;
+    padding: 43px 132px 0 0;
+}
+.modal-box {
+    display: none;
+    width: 321px;
+    height: 136px;
+    padding: 5px;
+    background-color: #fff;
+    box-sizing: border-box;
+    -webkit-box-shadow: 3px 6px 0px 0.00px rgba(0, 0, 0, 0.28) !important;
+    -moz-box-shadow: 3px 6px 0px 0.00px rgba(0, 0, 0, 0.28) !important;
+    box-shadow: 3px 6px 0px 0.00px rgba(0, 0, 0, 0.28) !important;
+}
+.modal-inner {
+    width: 311px;
+    height: 126px;
+    background-color: #eee;
+    padding: 12px 20px 0 13px;
+    box-sizing: border-box;
+    position: relative;
+}
+.modal-inner p {
+    font-family: 'Verdana';
+    font-size: 16px;
+    color: #838383;
+    margin-bottom: 32px;
+}
+.delete-approval {
+    display: inline-block;
+    width: 122px;
+    height: 28px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 12px;
+    line-height: 16px;
+    border: none;
+    color: #fff;
+    margin: 0 14px 0 -1px;
+    background: #1d4b8e; /* Old browsers */
+    background: -moz-linear-gradient(top, #1d4b8e 0%, #17478b 24%, #134389 50%, #0c3d85 80%, #083a83 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #1d4b8e 0%, #17478b 24%, #134389 50%, #0c3d85 80%, #083a83 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #1d4b8e 0%, #17478b 24%, #134389 50%, #0c3d85 80%, #083a83 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#1d4b8e', endColorstr='#083a83', GradientType=0); /* IE6-9 */
+    text-decoration: none;
+    box-sizing: border-box;
+    padding: 7px 0 0 24px;
+    float: left;
+}
+.delete-cancel {
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 11px;
+    line-height: 16px;
+    color: #6b6a6a;
+    display: block;
+    margin: 37px 0 0 139px;
+}
+.fancybox-wrap {
+    top: 161px !important;
+    left: 50% !important;
+    margin-left: -176px !important;
+}
+.fancybox-opened .fancybox-skin {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.fancybox-skin {
+    background-color: #5a6c86;
+}
+.fancybox-inner {
+    padding: 7px;
+}
+.fancybox-close {
+    background: url("../images/modal-close-btn.png") 0 0 no-repeat;
+    top: 34px;
+    right: -7px;
+}

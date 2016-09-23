@@ -1,0 +1,128 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    color: #3a3a3a;
+    background-color: #faf8fa;
+}
+.container {
+    width: 1180px;
+    margin: 0 auto;
+    position: relative;
+    background-color: red;
+}
+.container a {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    line-height: 18px;
+    color: #666666;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: 750px;
+    text-decoration: none;
+    background: url("../images/accentuation.png") 0 16px repeat-x;
+}
+.modal-box {
+    display: none;
+    width: 369px;
+    height: 326px;
+    -webkit-box-shadow: -2px 4px 5px 0.00px rgba(102, 102, 102, 0.75);
+    -moz-box-shadow: -2px 4px 5px 0.00px rgba(102, 102, 102, 0.75);
+    box-shadow: -2px 4px 5px 0.00px rgba(102, 102, 102, 0.75);
+    border: 1px solid #cfbfa6;
+    position: relative;
+}
+.call-back-form {
+    margin: 9px 0 0 15px;
+}
+.call-back-form p {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #494848;
+    width: 325px;
+    margin-bottom: 12px;
+}
+.form-row {
+    height: 45px;
+}
+.call-back-form input {
+    border: 1px solid #cfbfa6;
+    width: 339px;
+    height: 36px;
+    padding-left: 7px;
+    box-sizing: border-box;
+}
+.call-back-form ::-webkit-input-placeholder {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999;
+}
+.call-back-form ::-moz-placeholder {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999;
+}
+.call-back-form :-moz-placeholder {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999;
+}
+.call-back-form :-ms-input-placeholder {
+    font-family: 'PT Serif', serif;
+    font-size: 13px;
+    line-height: 15px;
+    color: #999;
+}
+.call-back-form textarea {
+    width: 339px;
+    height: 70px;
+    border: 1px solid #cfbfa6;
+    padding: 9px 0 0 8px;
+    box-sizing: border-box;
+    margin-top: 3px;
+}
+.call-back-form button {
+    width: 256px;
+    height: 35px;
+    background-color: #cfbfa6;
+    color: #3c3a3a;
+    font-family: 'PT Serif', serif;
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    border: none;
+    margin: 10px 0 0 78px;
+}
+.fancybox-wrap {
+    top: 48px !important;
+    left: 50% !important;
+    margin-left: -56px;
+}
+.fancybox-opened .fancybox-skin {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+}
+.fancybox-skin {
+    background-color: #faf8fa;
+}
+.fancybox-skin {
+    padding: 0 !important;
+}
+.fancybox-inner {
+    padding: 7px 8px 8px 9px;
+}
+.fancybox-close {
+    background: url("../images/modal-close.png") no-repeat;
+    top: 16px;
+    right: -12px;
+}

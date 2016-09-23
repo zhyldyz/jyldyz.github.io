@@ -1,0 +1,101 @@
+* {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+body {
+	font: 14px Arial, Helvetica, sans-serif;
+}
+
+.blc_cars {
+	padding: 40px 0;
+}
+
+.blc_cars .container {
+	width: 940px;
+	margin: 0 auto;
+}
+
+.blc_cars .mainmenu {
+	height: 60px;
+	background: #52bbde;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	margin-bottom: 10px;
+}
+
+.blc_cars .mainmenu > ul > li {
+	float: left;
+	padding: 1.3% 2.3% 1.6% 2.2%;
+	position: relative;
+	background: url(../images/line.png) no-repeat right center;
+}
+
+.blc_cars .mainmenu > ul > li:hover {
+	background: #4292ad;
+}
+
+.blc_cars .mainmenu > ul > li:last-child {
+	background: none;
+}
+
+.blc_cars .mainmenu ul li a {
+	color: #fff;
+	font-size: 24px;
+	font-family: 'Open Sans';
+	font-weight: 300;
+	text-decoration: none;
+}
+
+.blc_cars .mainmenu ul li.dropdown > a {
+	background: url('../images/icon.png') no-repeat right center;
+	padding-right: 16px;
+}
+
+.blc_cars .mainmenu ul ul {
+	display: none;
+	position: absolute;
+	top: 60px;
+	left: 0;
+	background: #4292ad;
+	width: 250px;
+	-webkit-border-bottom-right-radius: 5px;
+	-webkit-border-bottom-left-radius: 5px;
+	-moz-border-radius-bottomright: 5px;
+	-moz-border-radius-bottomleft: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	padding: 9px 0 10px 0;
+}
+
+.blc_cars .mainmenu ul ul li:hover {
+	background-color: rgba(255,255,255,0.2);
+}
+
+.blc_cars .mainmenu ul ul li:hover a {
+	color: #000;
+}
+
+.blc_cars .mainmenu ul ul li a {
+	font-size: 18px;
+	padding: 7px 0px 0px 24px;
+	display: block;
+	height: 37px;
+	box-sizing: border-box;
+}
+
+
+.blc_cars .mainmenu ul li:hover ul {
+	display: block;
+}
+
+.content{
+	background: url("../images/car.jpg") 0 0 no-repeat;
+	width: 100%;
+	min-height: 400px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}

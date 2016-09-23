@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+body {
+    background: url("../images/zebra.png") no-repeat center top;
+    background-size: 100% auto;
+    font-family: 'Arimo', sans-serif;
+}
+
+.header-content {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header {
+    height: 86px;
+    background: rgba(255, 255, 255, 0.94);
+    -webkit-box-shadow: -1px 3px 3px 0px rgba(0, 0, 0, 0.31);
+    -moz-box-shadow: -1px 3px 3px 0px rgba(0, 0, 0, 0.31);
+    box-shadow: -1px 3px 3px 0px rgba(0, 0, 0, 0.31);
+}
+
+.logo {
+    font-size: 38px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 25px;
+    float: left;
+}
+
+.logo a {
+    color: #626262;
+}
+
+.logo span {
+    color: #06b5a9;
+}
+
+.mainmenu {
+    padding-left: 329px;
+}
+
+.mainmenu > ul > li {
+    float: left;
+    position: relative;
+}
+
+.mainmenu ul li a {
+    text-decoration: none;
+    color: #626262;
+    font-size: 19px;
+    padding: 37px 13px 0 13px;
+    display: block;
+    height: 86px;
+    box-sizing: border-box;
+}
+
+.mainmenu ul > li:hover {
+    background-color: #cf1a2b;
+}
+
+.mainmenu ul > li:hover a {
+    color: #fff;
+}
+
+.mainmenu ul > li:hover .dropdown {
+    display: block;
+}
+
+.dropdown {
+    display: none;
+    background-color: #cf1a2b;
+    width: 605px;
+    height: 298px;
+    position: absolute;
+    top: 86px;
+    overflow: hidden;
+}
+
+.tie-block {
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 39px;
+    text-transform: uppercase;
+    width: 215px;
+    height: 282px;
+    background: url("../images/tie.png") 73px 123px no-repeat;
+    float: left;
+    color: #fff;
+}
+
+.tie-block span {
+    color: #fec8cd;
+}
+
+.tie-block div {
+    height: 53px;
+    border-bottom: 1px solid #d94855;
+    border-top: 1px solid #d94855;
+    padding: 15px 0 0 34px;
+}
+
+.mainmenu ul ul li a {
+    text-decoration: none;
+    padding: 16px 0 0 2px;
+    display: block;
+    height: 34px;
+    color: #f2d1d3;
+    font-family: HalveticaCE;
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    height: 100%;
+    padding: 4px 0 0 34px;
+    width: 192px;
+    float: left;
+    border-left: 1px solid #d94855;
+    box-sizing: border-box;
+}
+
+
+

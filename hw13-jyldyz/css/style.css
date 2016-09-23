@@ -1,0 +1,229 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+}
+
+.container {
+    width: 900px;
+    margin: 0 auto;
+}
+
+.form1-block {
+
+    font-family: 'Open Sans', sans-serif;
+    height: 297px;
+    width: 304px;
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ede9e0+0,e4e0d2+100 */
+    background: #ede9e0; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ede9e0 0%, #e4e0d2 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ede9e0 0%,#e4e0d2 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ede9e0 0%,#e4e0d2 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ede9e0', endColorstr='#e4e0d2',GradientType=0 ); /* IE6-9 */
+
+    margin: 60px 0 20px 24px;
+    padding: 20px 0 0 24px;
+    box-sizing: border-box;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+    /*-webkit-box-shadow: 3px 13px 16px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+    /*-moz-box-shadow: 3px 13px 16px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+    /*box-shadow: 3px 13px 16px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+
+    /*-webkit-box-shadow: 4px 7px 5px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+    /*-moz-box-shadow:    4px 7px 5px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+    /*box-shadow:         4px 7px 5px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+
+    /*-webkit-box-shadow: 3px 7px 5px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+    /*-moz-box-shadow:    3px 7px 5px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+    /*box-shadow:         3px 7px 5px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);*/
+
+    -webkit-box-shadow: 5px 12px 16px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+    -moz-box-shadow:    5px 12px 16px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+    box-shadow:         5px 12px 16px 0px rgba(236, 232, 227, 0.75), inset 0px 1px 1px 0px rgba(255, 255, 255, 1);
+}
+
+.form1-block h2{
+
+    color: #a59c91;
+    font-size: 22px;
+    margin : 0 0 20px 2px;
+}
+
+.form1-field{
+    width: 255px;
+    box-sizing: border-box;
+    height: 45px;
+    margin-bottom: 19px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+    border: 1px solid #dad2c2;
+    -webkit-box-shadow: 1px 1px 1px 0px rgba(255, 255, 255, 0.75), inset 1px 1px 3px 0px rgba(118, 108, 100, 0.38);
+    -moz-box-shadow:    1px 1px 1px 0px rgba(255, 255, 255, 0.75), inset 1px 1px 3px 0px rgba(118, 108, 100, 0.38);
+    box-shadow:         1px 1px 1px 0px rgba(255, 255, 255, 0.75), inset 1px 1px 3px 0px rgba(118, 108, 100, 0.38);
+    overflow: hidden;
+
+
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ece8de+0,ebe7dc+100 */
+    background: #ece8de; /* Old browsers */
+    background: -moz-linear-gradient(top,  #ece8de 0%, #ebe7dc 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #ece8de 0%,#ebe7dc 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #ece8de 0%,#ebe7dc 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ece8de', endColorstr='#ebe7dc',GradientType=0 ); /* IE6-9 */
+
+}
+
+.form1-block .email-icon,
+.form1-block .passw-icon {
+    display: block;
+    float: left ;
+    width: 51px;
+    height: 100%;
+    -webkit-box-shadow: inset 1px 1px 1px 0px rgba(118, 108, 100, 0.2);
+    -moz-box-shadow:    inset 1px 1px 1px 0px rgba(118, 108, 100, 0.2);
+    box-shadow:         inset 1px 1px 1px 0px rgba(118, 108, 100, 0.2);
+}
+
+.form1-block .email-icon{
+    background: url("../images/envelope.png") 13px 13px no-repeat ;
+}
+.form1-block .passw-icon{
+    background: url("../images/key.png") 15px 10px no-repeat ;
+}
+.form1-block input{
+    padding-left: 19px;
+    /*Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#e4ddcf+0,e3dccd+100*/
+    background: #e4ddcf; /* Old browsers */
+    background: -moz-linear-gradient(top,  #e4ddcf 0%, #e3dccd 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #e4ddcf 0%,#e3dccd 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #e4ddcf 0%,#e3dccd 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e4ddcf', endColorstr='#e3dccd',GradientType=0 ); /* IE6-9 */
+    -webkit-box-shadow:  inset 1px 1px 3px 0px rgba(118, 108, 100, 0.38);
+    -moz-box-shadow:     inset 1px 1px 3px 0px rgba(118, 108, 100, 0.38);
+    box-shadow:          inset 1px 1px 3px 0px rgba(118, 108, 100, 0.38);
+    margin: -2px 0 0 -3px;
+    width: 203px;
+    height: 45px;
+    outline: none;
+    overflow: hidden;
+    font-size: 15px;
+}
+
+::-webkit-input-placeholder {color:#786e55;}
+::-moz-placeholder          {color:#786e55;}/* Firefox 19+ */
+:-moz-placeholder           {color:#786e55;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#786e55;}
+
+
+.form1-block button{
+
+    width: 255px;
+    height: 57px;
+    color: #fff;
+    font-size: 21px;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#f2e0b9+0,d9ad61+100 */
+    background: #f2e0b9; /* Old browsers */
+    background: -moz-linear-gradient(top,  #f2e0b9 0%, #d9ad61 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  #f2e0b9 0%,#d9ad61 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  #f2e0b9 0%,#d9ad61 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#f2e0b9', endColorstr='#d9ad61',GradientType=0 ); /* IE6-9 */
+
+
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+
+    -webkit-box-shadow: 0px -5px 1px 0px rgba(218, 213, 197, 0.75);
+    -moz-box-shadow:    0px -5px 1px 0px rgba(218, 213, 197, 0.75);
+    box-shadow:         0px -5px 1px 0px rgba(218, 213, 197, 0.75);
+}
+
+
+.form2-block {
+    /*width: 265px;*/
+    /*height: 242px;*/
+
+    width: 304px;
+    height: 262px;
+    border-width: 10px 10px 10px 29px;
+    -moz-border-image: url("../images/border.png") 10 10 10 29 repeat;
+    -webkit-border-image: url("../images/border.png") 10 10 10 29 repeat;
+    -o-border-image: url("../images/border.png") 10 10 10 29 repeat;
+    border-image: url("../images/border.png") 10 10 10 29 fill repeat;
+    margin-bottom: 100px;
+
+    font-family: arial, regular;
+    box-sizing: border-box;
+    padding: 17px 0 0 7px;
+
+    font-size: 12px;
+    line-height: 20px;
+    color: #525252;
+}
+
+.form2-block h3{
+    font-size: 17px;
+    color: #5a5a5a;
+    margin-bottom: 7px;
+}
+
+.form2-block p {
+    font-size: 12px;
+    font-weight: bold;
+    color: #0d0d0d;
+    line-height: 16px;
+    margin-bottom: 9px;
+}
+
+.form2-block input[type='radio']{
+    display: none;
+}
+.form2-checkboxes{
+    margin-left: 17px;
+}
+.checkb{
+    display: inline-block;
+    width: 14px;
+    height: 15px;
+    background: url("../images/radio-btn.png") 0 0 no-repeat;
+}
+
+.checkedCB{
+    display: none;
+    width: 15px;
+    height: 17px;
+    background: url("../images/checked-radio-btn.png") 0 0 no-repeat;
+}
+
+.form2-block input[type='radio']:checked + label .checkb{
+    display: inline-block;
+}
+
+.form2-block input[type='radio']:checked + label .checkedCB{
+    display: inline-block;
+}
+
+.form2-block button{
+    width: 81px;
+    height: 32px;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
+    border: 1px solid #c9c9c9;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px
+}
+.form2-block a{
+    color: #535353;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+

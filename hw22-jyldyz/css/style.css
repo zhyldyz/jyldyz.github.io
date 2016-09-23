@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    background: #fff;
+    color: #3a3a3a;
+}
+.container {
+    max-width: 1170px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+.container-inner {
+    margin-right: -40px;
+    position: relative;
+    overflow: hidden;
+}
+.wdt-blog {
+    float: left;
+    width: 370px;
+    padding: 80px 0;
+    overflow: hidden;
+}
+.wdt-blog .title {
+    padding-bottom: 25px;
+    border-bottom: 1px solid #e7e7e7;
+}
+.form-block .title {
+    padding-bottom: 25px;
+}
+.form-block .title h3,
+.wdt-blog .title h3 {
+    font-size: 21px;
+    text-transform: uppercase;
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+}
+.wdt-blog .item,
+.wdt-blog .adr {
+    border-bottom: 1px solid #e7e7e7;
+    padding: 35px 0 27px;
+    overflow: hidden;
+}
+.wdt-blog .adr {
+    padding: 22px 0 27px;
+
+}
+.wdt-blog .item .avatar {
+    float: left;
+    margin-top: -5px;
+}
+.wdt-blog .item .avatar img {
+    border-radius: 50%;
+}
+.wdt-blog .item p,
+.wdt-blog .adr p {
+    font-size: 14px;
+    color: #767c7e;
+    line-height: 24px;
+    margin: 0 0 4px 100px;
+}
+.wdt-blog .adr p {
+    margin: 0 0 -2px 49px;
+}
+.wdt-blog .item .more-link {
+    margin-left: 100px;
+}
+.wdt-blog .item .more-link a {
+    color: #e84c3d;
+    text-decoration: none;
+    position: relative;
+}
+.wdt-blog .item .more-link a::after {
+    content: '=>';
+    position: absolute;
+    right: -23px;
+    top: 0;
+}
+.wdt-blog .item .more-link a:hover {
+    color: #e84c3d;
+}
+.form-inner {
+    padding-top: 25px;
+    background-color: #e7e7e7;
+}
+.form-wrapper {
+    width: 310px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+    margin: 0 0px 0 31px;
+    box-sizing: border-box;
+}
+.form-inner p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #767c7e;
+    margin-bottom: 28px;
+    margin-left: 30px;
+}
+.form-wrapper input {
+    margin-bottom: 20px;
+    width: 100%;
+    height: 41px;
+    -webkit-border-radius: 24px;
+    -moz-border-radius: 24px;
+    border-radius: 24px;
+    border: none;
+    padding: 0px 0 0 16px;
+    box-sizing: border-box;
+}
+.form-wrapper textarea {
+    box-sizing: border-box;
+    padding: 11px 11px 11px 16px;
+    width: 100%;
+    height: 82px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 19px;
+}
+.form-wrapper button {
+    width: 100px;
+    height: 41px;
+    background-color: #e84c3d;
+    text-transform: uppercase;
+    border-radius: 24px;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    border: none;
+    position: relative;
+    margin-bottom: 29px;
+    padding-right: 30px;
+    outline: 0;
+}
+.form-wrapper button::before {
+    content: '';
+    position: absolute;
+    top: 16px;
+    left: 65px;
+    width: 15px;
+    height: 7px;
+    background: url("../images/batton-arrow.png") 0 0 no-repeat;
+}
+.form-wrapper ::-webkit-input-placeholder {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #9faaad;
+}
+.form-wrapper ::-moz-placeholder {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #9faaad;
+}
+.form-wrapper :-moz-placeholder {
+
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #9faaad;
+}
+.form-wrapper :-ms-input-placeholder {
+    font-family: 'Lato', sans-serif;
+    font-style: italic;
+    font-size: 14px;
+    color: #9faaad;
+}
+.icon {
+    float: left;
+    width: 45px;
+    height: 35px;
+}
+.address {
+    background: url("../images/icon1.png") 1px 4px no-repeat;
+}
+.phone {
+    background: url("../images/icon2.png") -3px 4px no-repeat;
+}
+.email {
+    background: url("../images/icon3.png") -4px -1px no-repeat;
+}
+.adr span {
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 900;
+    color: #e84c3d;
+    margin-left: 4px;
+    display: block;
+    margin-bottom: 6px;
+}
+.form-block {
+    width: 370px;
+    float: left;
+    padding: 80px 0;
+    overflow: hidden;
+}
+.wdt {
+    margin-right: 32px;
+}
+@media screen and  (max-width: 768px) {
+    .wdt-blog {
+        width: 100%;
+        padding: 0 40px;
+    }
+    .form-block {
+        width: 100%;
+    }
+    .form-block h3{
+        margin-left: 40px;
+    }
+}
+
+

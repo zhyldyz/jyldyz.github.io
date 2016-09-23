@@ -1,0 +1,190 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    background: #fff;
+    line-height: 1.3;
+    color: #3a3a3a;
+    min-width: 960px;
+}
+
+table {
+    width: 100%;
+    border-spacing: 0;
+}
+
+.container {
+    width: 950px;
+    margin: 0 auto;
+    position: relative;
+    padding-top: 50px;
+}
+
+.inner table {
+    width: 941px;
+    margin-bottom: 77px
+}
+
+h3.dash {
+    font-family: 'Myriad Pro', arial, sans-serif;
+    font-weight: bold;
+    font-size: 22px;
+    background: url("../images/dash.gif") 0 14px repeat-x;
+    margin-bottom: 14px;
+}
+
+h3.dash span {
+    background: #fff;
+    padding: 0 5px 0 0;
+}
+
+.services-block {
+}
+
+.services-block .inner {
+    margin: 0 4px;
+}
+
+.services-block th, .services-block td {
+    text-align: center;
+    padding: 9px 3px;
+    background: url("../images/dash-g.gif") 0 100% repeat-x;
+}
+
+.services-block td {
+    vertical-align: top;
+    background: url("../images/dash-g.gif") 0 100% repeat-x;
+}
+
+.services-block th {
+    background: #fffaec;
+    padding: 5px 3px;
+    color: #838383 !important;
+    border-top: 1px solid #fff4d4;
+    border-bottom: 1px solid #fff4d4;
+}
+
+.services-block th:first-child {
+    border-left: 1px solid #fff4d4;
+    -webkit-border-top-left-radius: 2px;
+    -webkit-border-bottom-left-radius: 2px;
+    -moz-border-radius-topleft: 2px;
+    -moz-border-radius-bottomleft: 2px;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.services-block th:last-child {
+    border-right: 1px solid #fff4d4;
+    -webkit-border-top-right-radius: 2px;
+    -webkit-border-bottom-right-radius: 2px;
+    -moz-border-radius-topright: 2px;
+    -moz-border-radius-bottomright: 2px;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.services-block table .num {
+    width: 59px;
+}
+
+.services-block table .order {
+    width: 86px;
+}
+
+.services-block table .order.string {
+    font-style: italic;
+    color: #9c9c9c;
+}
+
+.services-block table .date {
+    width: 82px;
+}
+
+.services-block table .code {
+    width: 54px;
+}
+
+.services-block table .names {
+    width: 329px;
+    text-align: left;
+    padding-left: 11px;
+}
+
+.services-block table .sum {
+    width: 48px;
+}
+
+.services-block table .price {
+    color: #fd6105;
+    width: 91px;
+}
+
+.services-block table .status {
+    width: 81px;
+}
+
+.done {
+    color: #8ca926;
+}
+
+.cenceled {
+    color: #d51d0f
+}
+
+.pending {
+    color: #939393;
+}
+
+.services-block table .w1 {
+    width: 1px;
+    background: url("../images/dash-v.gif") 50% 50% repeat-y;
+}
+
+.services-block table th.w1 {
+    background: #fffaec;
+}
+
+.rowspanned {
+    vertical-align: middle !important;
+}
+
+.total td {
+    text-align: right;
+    padding-top: 11px;
+}
+
+.total span {
+    font-weight: bold;
+    font-size: 16px;
+    color: #fd660c;
+}
+
+.bonuses {
+    margin-bottom: 70px;
+}
+
+.bonuses li {
+    list-style: none;
+    background: url("../images/tick.png") 6px 3px no-repeat;
+    padding-left: 19px;
+    margin-bottom: 8px
+}
+
+.bonuses span {
+    color: #a0a0a0;
+}
+
+.bonuses p {
+    margin: 14px 0 0 6px;;
+}
+
+.bonuses .phone {
+    color: #fd650a;
+    font-weight: bold;
+    font-size: 14px;
+}

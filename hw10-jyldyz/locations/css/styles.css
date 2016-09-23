@@ -1,0 +1,211 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+    font: 14px Arial, Halvetica, sans-serif;
+    color: #7f7f7f;
+}
+table {
+    width: 100%;
+    margin-left: 2px;
+    white-space: nowrap;
+}
+
+table tr {
+    height: 45px;
+}
+
+.locations  table tr:nth-child(2n)  {
+    height: 43px;
+}
+
+.locations {
+    background: #f6f6f6;
+    padding-top: 18px;
+}
+
+.locations .container {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    min-height: 800px;
+    width: 900px;
+    background: #fff;
+    padding: 42px 83px 96px 67px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.locations .title {
+    margin-bottom: 20px;
+    font-size: 13px;
+}
+
+.locations .title h3 {
+    color: #003663;
+    margin-bottom: 20px;
+    font-family: arial;
+    font-weight: normal;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+.locations .green_table tr:nth-child(2n-1) td {
+    background-color: #fbffe4;
+    border-top: 1px solid #d1dc8d;
+    border-bottom: 1px solid #d1dc8d;
+}
+
+
+.locations .blue_table tr:nth-child(2n-1) td {
+    background-color: #f4fbfd;
+    border-top: 1px solid #d7e7ec;
+    border-bottom: 1px solid #d7e7ec;
+}
+
+
+
+.locations  .green_table tr:nth-child(2n-1) td:first-child {
+    border-left: 1px solid #d1dc8d;
+}
+
+.locations  .blue_table tr:nth-child(2n-1) td:first-child {
+    border-left: 1px solid #d7e7ec;
+}
+
+.locations  table tr:nth-child(2n-1) td:first-child {
+    -webkit-border-top-left-radius: 1px;
+    -webkit-border-bottom-left-radius: 1px;
+    -moz-border-radius-topleft: 1px;
+    -moz-border-radius-bottomleft: 1px;
+    border-top-left-radius: 1px;
+    border-bottom-left-radius: 1px;
+}
+
+.locations  .green_table tr:nth-child(2n-1) td:last-child {
+    border-right: 1px solid #d1dc8d;
+
+}
+
+.locations  .blue_table tr:nth-child(2n-1) td:last-child {
+    border-right: 1px solid #d7e7ec;
+
+}
+
+.locations  table tr:nth-child(2n-1) td:last-child {
+    -webkit-border-top-right-radius: 1px;
+    -webkit-border-bottom-right-radius: 1px;
+    -moz-border-radius-topright: 1px;
+    -moz-border-radius-bottomright: 1px;
+    border-top-right-radius: 1px;
+    border-bottom-right-radius: 1px;
+}
+
+.locations  table tr:nth-child(2n) td:first-child {
+    border-left: 1px solid #fff;
+}
+
+
+.locations  td .name {
+    font-family: arial;
+    font-weight: normal;
+    width: 212px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 22px;
+    color: #2f4455;
+    font-size: 14px;
+    padding-top: 1px;
+}
+.blue_table  td .name {
+    padding-left: 19px;
+}
+.blue_table  td .description {
+    padding-left: 19px;
+    padding-left: 45px;
+}
+
+.locations  td .description {
+    width: 189px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #2f4455;
+    font-size: 12px;
+    padding-top: 3px;
+    padding-left: 42px;
+}
+
+.locations  td .location {
+    width: 211px;
+    color: #8a9928;
+    font-size: 12px;
+    text-align: right;
+    padding-top: 1px;
+}
+
+.locations  td .location a {
+    text-decoration: none;
+    color: #8a9928;
+}
+
+.locations  td .comments {
+    width: 62px;
+    height: 30px;
+}
+
+.locations  .green_table tr:nth-child(2n    ) td .comments a  {
+    background: url("../images/tooltipGrey.png") 12px 2px no-repeat;
+
+}
+
+
+.locations  td .comments a {
+    font-family: arial;
+    font-style: italic;
+    font-size: 12px;
+    background: url("../images/tooltipGreen.png") 12px 2px no-repeat;
+    display: block;
+    height: 100%;
+    color: #fff;
+    text-decoration: none;
+    padding-left: 19px;
+    padding-top: 5px;
+}
+
+
+.green_table{
+    padding-bottom: 20px;
+    margin-bottom: 24px;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.blue_table td i{
+    display: inline-block;
+    height: 16px;
+    background: url("../images/star.png") 0 0 repeat-x;
+}
+
+.blue_table .rating{
+    width: 100px;
+}
+.blue_table .description{
+    padding-left: 14px !important;
+}
+.blue_table .map {
+    padding-right: 30px
+    width: 100px;
+}
+
+.blue_table .map a{
+;
+    color: #0c99c8;
+    text-decoration: none;
+    font-weight: normal;
+    font-size: 12px;
+}

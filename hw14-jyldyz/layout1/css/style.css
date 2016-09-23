@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #29606b;
+}
+
+.container{
+    width: 1172px;
+    margin: 0 auto;
+    padding-top: 78px;
+}
+
+.container h2, h3{
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+
+}
+.container h2{
+    font-size: 29px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+}
+.container h3{
+    font-size: 21px;
+    position: relative;
+    text-transform: uppercase;
+    margin-bottom: 64px;
+}
+
+.container h3::before{
+    content: '';
+    background-color: #387d89;
+    height: 1px;
+    position: absolute;
+    top: 12px;
+    left: 250px;
+    right: 250px;
+}
+
+.container h3 span{
+    background: #29606b;
+    padding: 0 22px;
+    position: relative;
+}
+
+.items-block {
+    margin-bottom: 60px;
+    margin-right: -32px;
+
+}
+.item {
+    background-color: #245963;
+    width: 370px;
+    /*height: 497px;*/
+    font: 400 16px / 26px 'Source Sans Pro';
+    color: #76b2be;
+    position: relative;
+    float: left;
+    margin-right: 30px;
+    padding-top: 45px;
+}
+
+
+.red{
+    border-top: 7px solid #e84c3d;
+}
+.yellow{
+    border-top: 7px solid #fdbd1f;
+}
+.blue{
+    border-top: 7px solid #1bbc9b;
+}
+
+.banner {
+    margin: 0 auto;
+    width: 181px;
+    height: 181px;
+    border-radius: 50%;
+    margin-bottom: 30px;
+}
+
+.description{
+    font: 400 16px / 26px 'Source Sans Pro';
+    color: #76b2be;
+    width: 303px;
+    height: 92px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 45px;
+}
+
+.read-more{
+    display: block;
+    width: 102px;
+    height: 35px;
+    margin: 0 0 63px 138px;
+    position: relative;
+    padding-top: 4px;
+    box-sizing: border-box;
+    font-family: 'Fjalla One', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+}
+.read-more::after{
+    content: "";
+    width: 0;
+    height: 0;
+    display: block;
+    position: absolute;
+    top: 35px;
+    left: 50%;
+    margin-left: -11px;
+    border-right: 12px solid transparent;
+    border-left:     12px solid transparent;
+}
+
+.red .read-more::after{
+    border-top: 12px solid #e84c3d;
+}
+.yellow .read-more::after{
+    border-top: 12px solid #fdbd1f;
+}
+.blue .read-more::after{
+    border-top: 12px solid #1bbc9b;
+}
+
+.red .read-more{
+    background-color: #e84c3d;
+}
+
+.yellow .read-more{
+    background-color: #fdbd1f;
+}
+
+.blue .read-more{
+    background-color: #1bbc9b;
+}
+

@@ -1,0 +1,210 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: arial, sans-serif;
+    font-size: 13px;
+    line-height: 1.2;
+    background: #fff;
+    color: #3a3a3a;
+    background: url("../images/header.jpg") 50% 0 no-repeat;
+}
+.header {
+    position: relative;
+}
+.container {
+    width: 100%;
+}
+.clearfix::after {
+    content: '';
+    display: block;
+    width: 100%;
+    clear: both;
+}
+.logo {
+    display: block;
+    width: 70px;
+    height: 70px;
+    float: left;
+    background-color: #fe5b45;
+    background-image: url("../images/logo.png");
+    background-repeat: no-repeat;
+    background-position: 22px 23px;
+}
+.btn-toggle {
+    display: block;
+    width: 70px;
+    height: 68px;
+    float: right;
+    background-color: #1ac7c3;
+    border: none;
+    outline: none;
+    background-image: url("../images/hamburger.png");
+    background-repeat: no-repeat;
+    background-position: 26px 20px;
+}
+.menu {
+    display: none;
+    position: absolute;
+    top: 70px;
+    width: 70%;
+    right: 0;
+}
+.menu-item {
+    display: block;
+    padding: 10px;
+    text-align: right;
+    background: #66d7d4;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.menu-item:hover {
+    background: #1ac7c3;
+}
+.content {
+    margin-top: 393px;
+    background-color: #fff;
+}
+.article-main {
+    padding: 55px 25px 36px;
+    color: #153f60;
+}
+.article-main h2,
+.article-sec h2 {
+    text-transform: uppercase;
+    font-family: 'Raleway', sans-serif;
+    margin-bottom: 21px;
+}
+.article-main h2 {
+    font-size: 38px;
+    line-height: 50px;
+}
+.article-main p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    margin-bottom: 24px;
+}
+.article-sec {
+    padding: 54px 19px 52px 32px;
+    color: #fff;
+    background-color: #1ac7c3;
+}
+.article-sec h2 {
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 32px;
+}
+.article-sec p {
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    line-height: 23px;
+    font-style: italic;
+}
+.contact {
+    background-color: #f26c4f;
+    color: #fff;
+    padding: 37px 26px 49px 26px;
+}
+.contact h2 {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 40px;
+    color: #ffffff;
+    text-transform: uppercase;
+    margin-bottom: 27px;
+}
+.contact p {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 24px;
+    color: #fff;
+    margin-bottom: 18px;
+}
+.btn-contact {
+    display: block;
+    width: 270px;
+    width: 268px;
+    height: 53px;
+    background-color: #ffffff;
+    color: #f26c4f;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 600;
+    font-size: 17px;
+    box-sizing: border-box;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 16px 0 0 75px;
+}
+@media screen and (min-width: 1248px) {
+    .container {
+        max-width: 1248px;
+        overflow: hidden;
+        margin: 0 auto;
+    }
+    .content {
+        margin-top: 449px;
+    }
+    .article-main h2 {
+        letter-spacing: 3px;
+        line-height: 50px;
+    }
+    .article-sec {
+        padding: 119px 88px 125px 56px;
+    }
+    .btn-toggle {
+        display: none;
+    }
+    .menu {
+        position: static;
+        display: inline-block;
+    }
+    .menu-item {
+        margin: 25px 0 0 8px;
+        display: inline-block;
+        background: none;
+        color: #f26c4f;
+        font-family: 'Raleway', sans-serif;
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: 600;
+        padding: 10px 19px 0;
+    }
+    .menu-item:hover {
+        background: none;
+    }
+    .left-block {
+        float: right;
+        width: 513px;
+        box-sizing: border-box;
+        margin-bottom: 83px;
+    }
+    .right-block {
+        margin: 66px 0 62px 70px;
+        float: left;
+        width: 622px;
+        box-sizing: border-box;
+    }
+    .contact {
+        padding: 97px 26px 49px 216px;
+    }
+    .contact p {
+        max-width: 580px;
+        margin-bottom: 38px;
+    }
+    .btn-contact {
+        padding: 16px 0 0 51px;
+        width: 220px;
+    }
+    .logo {
+        width: 98px;
+        height: 95px;
+        background-image: url("../images/logo-web.png");
+        background-position: 34px 33px;
+        margin-left: 35px;
+
+    }
+}
